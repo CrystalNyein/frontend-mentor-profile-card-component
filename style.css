@@ -24,3 +24,65 @@ body {
   bottom: -33rem;
   right: -15rem;
 }
+.container {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  z-index: 1;
+  width: 22rem;
+  min-height: 26rem;
+  max-width: 95vw;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 1rem;
+  position: relative;
+  text-align: center;
+  font-family: var(--kumbh-sans);
+}
+#card-pattern {
+  width: 100%;
+  height: 9rem;
+  border-radius: 1rem 1rem 0 0;
+  margin-bottom: 4rem;
+}
+#card-profile {
+  width: 6.4rem;
+  height: 6.4rem;
+  border: 0.25rem solid white;
+  position: absolute;
+  top: 5.8rem;
+  left: 7.8rem;
+  border-radius: 50%;
+  background-color: white;
+}
+.card h2 {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.card h2 span {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--dark-gray);
+}
+.card p {
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+.card hr {
+  border-top: 1px solid #fefefe;
+}
+.status-container {
+  margin: 0 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.status-container h3 {
+  margin-bottom: 0;
+}
+.status-container p {
+  margin-top: 0.5rem;
+}
