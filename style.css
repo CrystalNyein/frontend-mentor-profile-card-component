@@ -8,3 +8,19 @@
 html {
   font-size: 18px;
 }
+body {
+  background-color: var(--dark-cyan);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+#pattern-top {
+  position: absolute;
+  top: -28rem;
+  left: -14rem;
+}
+#pattern-bottom {
+  position: absolute;
+  bottom: -33rem;
+  right: -15rem;
+}
