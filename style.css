@@ -61,7 +61,7 @@ body {
   border: 0.25rem solid white;
   position: absolute;
   top: 5.8rem;
-  left: 7.8rem;
+  left: calc(50% - 3.2rem);
   border-radius: 50%;
   background-color: white;
 }
@@ -89,6 +89,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .status-container h3 {
   margin-bottom: 0;
